@@ -35,6 +35,10 @@ public class Main {
 		String nombre2 = "JOSE";
 		String nombreEnMinuscula = nombre2.toLowerCase();
 		System.out.println("Nombre en minuscula: " + nombreEnMinuscula);
+		
+		System.out.println("Valor estatico 1:"+provincia);
+		System.out.println("Valor estatico 2:"+canton);
+
 
 	}
 

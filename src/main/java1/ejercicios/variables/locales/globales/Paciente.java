@@ -5,6 +5,9 @@ public class Paciente {
 	private String nombre;
 	private int edad;
 	
+	public static String provincia="PICHINCHA";
+	public static String canton="QUITO";
+	
 	public void deporte() {
 		this.nombre="Paul";
 		this.edad=25;
@@ -15,6 +18,7 @@ public class Paciente {
 	
 	
 	
+
 	
 
 }
