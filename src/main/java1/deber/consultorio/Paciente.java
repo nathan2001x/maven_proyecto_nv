@@ -1,6 +1,6 @@
 package deber.consultorio;
 
-public class Pacientes extends Main{
+public class Paciente {
 	private String nombre;
 	private String apellido;
 	private String edad;
@@ -33,9 +33,11 @@ public class Pacientes extends Main{
 	}
 	@Override
 	public String toString() {
-		return "Pacientes [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", sintoma=" + sintoma
+		return "Paciente [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", sintoma=" + sintoma
 				+ "]";
 	}
+	
+	
 	
 	
 
