@@ -141,7 +141,9 @@ public class Main {
 						opcionAlquiler = teclado4.nextLine();
 						if (opcionAlquiler.equals("a")) {
 							auto.setEstadoAuto("Alquilado");
-							System.out.println("La fecha del auto a entregar es:");
+							LocalDate diaHoy1=LocalDate.now();
+							diaHoy1.plusDays(2);
+							System.out.println("La fecha del auto a entregar es:"+diaHoy1);
 						} else if (opcionAlquiler.equals("b")) {
 							System.out.println("El auto no se ha alquilado");
 						}
